@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "companyName": "Americana Restaurants",
+    "tagline": "Serving world-class dining experiences across the Middle East & North Africa",
+    "reportTitle": "Annual Report",
+    "reportYear": "2024",
+    "preparedBy": "Infosys Analytics Team",
+    "website": "www.americana-food.com",
+    "accentColor": "1B3A6B",
+    "secondaryColor": "E8EDF5"
+  },
+  "chapters": [
+    {
+      "title": "Business Overview",
+      "sections": [
+        {
+          "type": "text",
+          "title": "About Americana Restaurants",
+          "body": "Americana Restaurants is the largest out-of-home dining and quick-service restaurant operator across 12 countries in the Middle East and North Africa. With strong franchisor partnerships and a diverse portfolio of iconic global brands — including KFC, Pizza Hut, Hardee's, Krispy Kreme, Peet's Coffee, Wimpy, TGI Friday's, Costa Coffee, and Baskin Robbins — the company delivers world-class dining experiences to millions of customers every day.\n\nTheir growth in recent years has been so rapid that it was starting to strain their technology infrastructure, exposing limitations in their ability to scale to demand. They sought out Infosys' expertise to help establish a state-of-the-art BPM framework that would bring transparency and efficiency into their process ecosystem while prioritizing their vital enterprise Accounts Payable processes for AI-powered transformation.",
+          "quote": "We are building the future of dining technology in MENA — one intelligent process at a time."
+        },
+        {
+          "type": "kpi",
+          "title": "Key Performance Indicators — FY 2024",
+          "items": [
+            { "label": "Total Revenue", "value": "$2.8B", "delta": "+14.2%", "deltaPositive": true },
+            { "label": "Countries", "value": "12", "delta": "+2 YoY", "deltaPositive": true },
+            { "label": "Restaurants", "value": "1,840", "delta": "+112", "deltaPositive": true },
+            { "label": "Employees", "value": "37,000", "delta": "+4,200", "deltaPositive": true }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Financial Performance",
+      "sections": [
+        {
+          "type": "chart",
+          "title": "Revenue Growth (2020–2024)",
+          "chartType": "bar",
+          "labels": ["2020", "2021", "2022", "2023", "2024"],
+          "datasets": [
+            {
+              "label": "Revenue ($M)",
+              "data": [1620, 1780, 2050, 2450, 2800]
+            }
+          ],
+          "caption": "Figure 1: Annual revenue in USD millions. CAGR of 14.7% over the period."
+        },
+        {
+          "type": "chart",
+          "title": "Revenue by Brand (2024)",
+          "chartType": "doughnut",
+          "labels": ["KFC", "Pizza Hut", "Hardee's", "Krispy Kreme", "Costa Coffee", "Others"],
+          "datasets": [
+            {
+              "label": "Revenue Share",
+              "data": [38, 22, 16, 10, 8, 6]
+            }
+          ],
+          "caption": "Figure 2: Revenue share by brand as percentage of total FY2024 revenue."
+        },
+        {
+          "type": "table",
+          "title": "Financial Summary",
+          "headers": ["Metric", "FY 2022", "FY 2023", "FY 2024", "YoY Change"],
+          "rows": [
+            ["Revenue ($M)", "2,050", "2,450", "2,800", "+14.3%"],
+            ["Gross Profit ($M)", "820", "1,008", "1,176", "+16.7%"],
+            ["EBITDA ($M)", "410", "510", "612", "+20.0%"],
+            ["Net Income ($M)", "184", "245", "308", "+25.7%"],
+            ["EPS ($)", "0.42", "0.56", "0.70", "+25.0%"]
+          ],
+          "caption": "All figures in USD millions unless stated otherwise.",
+          "highlightLastRow": false
+        },
+        {
+          "type": "chart",
+          "title": "EBITDA & Net Income Trend",
+          "chartType": "line",
+          "labels": ["2020", "2021", "2022", "2023", "2024"],
+          "datasets": [
+            { "label": "EBITDA ($M)", "data": [260, 310, 410, 510, 612] },
+            { "label": "Net Income ($M)", "data": [95, 128, 184, 245, 308], "color": "#E8522A" }
+          ],
+          "caption": "Figure 3: EBITDA and Net Income trajectory (USD millions)."
+        }
+      ]
+    },
+    {
+      "title": "Technology Transformation",
+      "sections": [
+        {
+          "type": "text",
+          "title": "AI-Powered Accounts Payable",
+          "body": "Infosys started at the foundation, completely reimagining Americana Restaurants' document-centric workflows for an enterprise set to turn AI-first. The deployment of Infosys Accounts Payable Solution on the cloud and its application enterprise-wide ensured that Americana Restaurants significantly improved efficiency, reducing processing times, minimizing errors, and optimizing costs.\n\nThe integration of agentic AI that followed has made their invoice processing largely autonomous. AI agents process invoices end-to-end and offer support for multiple languages while managing complex validations and diverse expense types, and processing exceptions with minimal human intervention."
+        },
+        {
+          "type": "kpi",
+          "title": "Transformation Outcomes",
+          "items": [
+            { "label": "Processing Time Reduction", "value": "73%", "delta": "vs. baseline", "deltaPositive": true },
+            { "label": "Error Rate Reduction", "value": "89%", "delta": "vs. baseline", "deltaPositive": true },
+            { "label": "Invoices Automated", "value": "94%", "delta": "end-to-end", "deltaPositive": true },
+            { "label": "Cost Savings", "value": "$12M", "delta": "Annual", "deltaPositive": true }
+          ]
+        },
+        {
+          "type": "bullets",
+          "title": "Key Technology Initiatives in 2024",
+          "items": [
+            "Deployment of Infosys Accounts Payable Solution across all 12 countries",
+            "Integration of agentic AI for autonomous invoice processing with multi-language support",
+            "Implementation of BPM framework for enterprise-wide process transparency",
+            "Cloud migration of core financial systems reducing infrastructure costs by 31%",
+            "Launch of intuitive self-service portal accessible from desktop and mobile devices",
+            "Real-time dashboards enabling visibility into AP processes for all stakeholders"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Regional Expansion",
+      "sections": [
+        {
+          "type": "chart",
+          "title": "Restaurant Count by Country (2024)",
+          "chartType": "bar",
+          "labels": ["UAE", "Saudi Arabia", "Egypt", "Kuwait", "Qatar", "Jordan", "Bahrain", "Oman", "Lebanon", "Iraq", "Libya", "Morocco"],
+          "datasets": [
+            { "label": "Number of Restaurants", "data": [320, 580, 290, 145, 110, 95, 72, 68, 45, 60, 35, 20] }
+          ],
+          "caption": "Figure 4: Restaurant footprint across 12 countries of operation."
+        },
+        {
+          "type": "table",
+          "title": "New Restaurant Openings by Brand (2024)",
+          "headers": ["Brand", "Q1", "Q2", "Q3", "Q4", "Total"],
+          "rows": [
+            ["KFC", "12", "18", "14", "10", "54"],
+            ["Pizza Hut", "6", "9", "8", "7", "30"],
+            ["Hardee's", "4", "5", "4", "3", "16"],
+            ["Krispy Kreme", "2", "3", "2", "2", "9"],
+            ["Costa Coffee", "1", "2", "2", "1", "6"],
+            ["Others", "1", "1", "2", "2", "6"],
+            ["Total", "26", "38", "32", "25", "121"]
+          ],
+          "highlightLastRow": true
+        }
+      ]
+    },
+    {
+      "title": "Corporate Governance & Outlook",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Corporate Governance",
+          "body": "Americana Restaurants maintains the highest standards of corporate governance across all markets of operation. The Board of Directors comprises 9 members, including 4 independent directors, and meets quarterly to review strategic direction, risk management, and financial performance.\n\nIn 2024, the company established a dedicated Technology & Innovation Committee to oversee the ongoing digital transformation program, ensuring AI adoption aligns with ethical guidelines and regulatory requirements across all jurisdictions."
+        },
+        {
+          "type": "text",
+          "title": "2025 Strategic Outlook",
+          "body": "Building on the strong momentum of 2024, Americana Restaurants targets revenue of $3.2B in 2025, representing growth of approximately 14%. Key strategic priorities include continued expansion into underserved markets, deepening the AI transformation across all back-office functions, and launching loyalty programs powered by predictive analytics.\n\nThe company plans to open an additional 130 restaurants in 2025, with particular focus on Egypt, Saudi Arabia, and Iraq, where urbanization trends are creating significant demand for quality quick-service dining.",
+          "quote": "Our technology transformation is not just about efficiency — it is about creating the foundation for the next decade of growth."
+        },
+        {
+          "type": "table",
+          "title": "2025 Financial Guidance",
+          "headers": ["Metric", "FY 2024 Actual", "FY 2025 Guidance", "Target Growth"],
+          "rows": [
+            ["Revenue ($M)", "2,800", "3,150 – 3,250", "+12% to +16%"],
+            ["EBITDA ($M)", "612", "700 – 740", "+14% to +21%"],
+            ["Net Income ($M)", "308", "360 – 390", "+17% to +27%"],
+            ["New Restaurants", "121", "125 – 135", "—"],
+            ["Countries", "12", "12 – 13", "—"]
+          ],
+          "highlightLastRow": false
+        }
+      ]
+    }
+  ]
+}

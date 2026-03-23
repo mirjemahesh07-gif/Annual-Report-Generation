@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "companyName": "Tata Consultancy Services",
+    "tagline": "Digital transformation and technology partner of choice for industry-leading organizations worldwide",
+    "reportTitle": "Integrated Annual Report",
+    "reportYear": "2024-25",
+    "preparedBy": "Tata Consultancy Services",
+    "website": "www.tcs.com",
+    "logoPath": "tcs-logo.jpg",
+    "accentColor": "003087",
+    "secondaryColor": "00AEEF"
+  },
+  "chapters": [
+    {
+      "title": "About TCS",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Company Overview",
+          "body": "Tata Consultancy Services (TCS) is a digital transformation and technology partner of choice for industry-leading organizations worldwide. Since its inception in 1968, TCS has upheld the highest standards of innovation, engineering excellence and customer service.\n\nRooted in the heritage of the Tata Group, TCS is focused on creating long term value for its clients, its investors, its associates, and the community at large."
+        },
+        {
+          "type": "kpi",
+          "title": "Key Facts at a Glance",
+          "items": [
+            { "label": "Associates", "value": "607,000+" },
+            { "label": "Countries", "value": "55" },
+            { "label": "Revenues (FY 2025)", "value": "US $30 billion" },
+            { "label": "Service Delivery Centres", "value": "200+" }
+          ]
+        },
+        {
+          "type": "image",
+          "title": "Our Global Presence",
+          "path": "tcs-global.jpg",
+          "width": 580,
+          "height": 320,
+          "caption": "6 continents • 152 nationalities • 607,000+ associates"
+        }
+      ]
+    },
+    {
+      "title": "Perpetually Adaptive Enterprise",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Theme of the Year",
+          "body": "The TCS FY 2024-25 Integrated Annual Report highlights the rapidly changing world and role of technology in addressing business problems. Recent years have seen unabating transformation, driven by emerging technologies, geopolitical dynamics, and shifting consumer expectations."
+        },
+        {
+          "type": "chart",
+          "title": "Annual Report Themes Evolution",
+          "chartType": "line",
+          "labels": ["FY 2020", "FY 2021", "FY 2022", "FY 2023", "FY 2024"],
+          "datasets": [
+            { "label": "Focus Area", "data": [85, 92, 95, 98, 100] }
+          ],
+          "caption": "Journey towards perpetual adaptability"
+        }
+      ]
+    },
+    {
+      "title": "Board of Directors",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Board Composition",
+          "headers": ["Name", "Role", "Category"],
+          "rows": [
+            ["N Chandrasekaran", "Chairman", "Non-Independent, Non-Executive"],
+            ["K Krithivasan", "CEO & MD", "Non-Independent, Executive"],
+            ["Dr Pradeep Kumar Khosla", "Independent Director", "Independent, Non-Executive"],
+            ["Hanne Sorensen", "Independent Director", "Independent, Non-Executive"]
+          ],
+          "highlightLastRow": false
+        },
+        {
+          "type": "kpi",
+          "title": "Board Statistics",
+          "items": [
+            { "label": "Average Age", "value": "63 years" },
+            { "label": "Average Tenure", "value": "6 years" },
+            { "label": "Board Independence", "value": "62.5%" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Letter from the Chairman",
+      "sections": [
+        {
+          "type": "textTwoColumn",
+          "title": "",
+          "quote": "The single most transformative force in 2024 was Generative AI. GenAI is not just another tech cycle—it is a civilizational shift.",
+          "subsections":[
+              {"type":"paragraph","text":"The financial year 2025 was a year of profound global disruption.Widespread geopolitical conflicts, military escalations, and uncertain trade dynamics severely impacted global supply chains. Over 60 nations went to the polls, stalling policy continuity and reform agendas across several key markets. As a result, businesses worldwide faced significant shocks—ranging from falling production volumes and rising costs to suboptimal asset utilization, impacting profitability and cash flows."},
+              {"type":"paragraph","text":"In the face of this turbulence, your company demonstrated exceptional resilience. We partnered closely with our clients to help them perform under pressure while accelerating their transformation agendas. By harnessing the power of Generative AI and other emerging technologies, we enabled our clients to prepare for the future. The range of transformation is multifaceted and truly profound."},
+              {"type":"paragraph","text":"For example, we worked with a client to develop a GenAI–based drug discovery solution that created over 1,300 molecules for a concept target, then assessed synthesizability and shortlisted 12 molecules undergoing in-vitro testing. For another client, we implemented a direct-to-consumer digital solution for the automotive industry, allowing a seamless omnichannel presence and customized vehicle ownership experience. In another case, we modernized 50 million lines of legacy code into a modern AI-powered architecture."},
+              {"type":"paragraph","text":"These efforts, alongside many others, contributed to a robust financial performance, with FY 2025 revenue of US $30 billion and an industry-leading operating margin of 24.3%. Your company was once again recognized as a Global Top Employer for the tenth successive year."},
+              {"type":"paragraph","text":"The evolving geopolitical landscape and the emergence of a multipolar world are now reshaping how global businesses operate. We are witnessing the rise of new paradigms, demanding a thorough reimagination of systems, processes, and technologies to improve visibility, reduce costs, and enhance operational throughput. This reimagination includes designing end-to-end traceability across supply chains; diversification of sourcing strategies to build resilience, and region-specific ecosystems to serve decentralized markets."},
+              {"type":"paragraph","text":"Simultaneously, we are in the midst of an irreversible transition towards green energy. While jurisdictions vary in pace and regulation, businesses must adapt by developing market-appropriate solutions. Nowhere is this more evident than in the automotive sector. Investments in wind, solar, and small modular reactors (SMRs) are surging, leading to the development of new factories, supply chains, and digital tools that optimize both generation and consumption of energy. Your company has developed an AI-powered clever energy platform that has been helping clients optimize energy consumption, reducing emissions and energy costs."},
+              {"type":"paragraph","text":" Yet, the single most transformative force in 2024 was Generative AI. Achieving near-human reasoning capabilities, GenAI is not just another tech cycle, it is a civilizational shift. Its widespread adoption is accelerating, powered by parallel advances in semiconductors, cloud computing, quantum technologies, robotics, and energy innovation. GenAI is already redefining analytics, customer experience, and marketing. The rise of autonomous robots and AI agents promises a future of ‘dark factories’ and AI-assisted enterprise functions."}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Letter from the CEO",
+      "sections": [
+        {
+          "type": "textTwoColumn",
+          "title": "",
+          "quote":"Significant innovation is happening in the AI ecosystem across infrastructure, data platforms, models and AI native business applications.",
+          "subsections":[
+              {"type":"paragraph","text":"I am pleased to share that in FY 2025, we achieved two extraordinary milestones crossing the US$30 billion mark in revenues and the US$20 billion mark in brand value.This success is a testament to the early investments we have made in strengthening client relationships, building intellectual property, deepening employee capabilities and expanding technology ecosystem. I am grateful to every stakeholder for contributing to our growth and success."},
+              {"type":"paragraph","text":"In a very challenging geopolitical and macro-economic environment, the company reported an annual revenue of ₹255,324 crore in FY 2025, growing 6.0% year-on-year (4.2% in constant currency). Growth Markets experienced strong demand across key industries, fueled by accelerated digital adoption and new client acquisitions. Governments invested significantly in digital public services, creating opportunities for  TCS to drive large-scale transformation"},
+              {"type":"paragraph","text":"Our disciplined execution and operational rigor stood out again,as we delivered industry-leading margins of 24.3%, even as we accelerated investments in talent and expanded capabilities. Our net margin was at 19.0%. Earnings per share were at ₹134.19, a growth of 5.1%2 over the prior year."},
+              {"type":"bullets","items":["Establishing AI Centers of Excellence for scalable Enterprise AI strategies","Creating AI Labs for technology experimentation with clients","Building safe, secure, scalable GenAI as a Service Platforms","Providing domain AI solutions for business operations with over 150 AI agents","Delivering GenAI infused services for Software Engineering, IT operations, Technology Modernization, and Cyber Security","Setting up sovereign secure Cloud with integrated AI"]}
+          ]
+        },
+        {
+          "type": "kpi",
+          "title": "FY 2025 Performance",
+          "items": [
+            { "label": "Revenue", "value": "₹255,324 crore", "delta": "+6.0%" },
+            { "label": "Operating Margin", "value": "24.3%" },
+            { "label": "Dividend per Share", "value": "₹126" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Year Gone By – Q4",
+      "sections": [
+        {
+          "type": "bullets",
+          "title": "Key Highlights",
+          "items": [
+            "Final dividend of ₹30 per share",
+            "Partnership with Northern Trust for global securities platform",
+            "Strategic collaboration with DNB",
+            "Partnership with MassRobotics",
+            "Five-year partnership with Air New Zealand",
+            "TCS named in FORTUNE® World's Most Admired Companies 2025"
+          ]
+        }
+      ]
+    }
+  ]
+}
