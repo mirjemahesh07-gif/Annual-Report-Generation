@@ -1,0 +1,732 @@
+{
+  "meta": {
+    "companyName":      "Tata Consultancy Services",
+    "tagline":          "Building on belief",
+    "reportTitle":      "Integrated Annual Report",
+    "reportYear":       "2024-25",
+    "preparedBy":       "Investor Relations",
+    "website":          "www.tcs.com",
+    "logoPath":         "tcs-logo.png",
+    "accentColor":      "003087",
+    "secondaryColor":   "E8F0FB",
+    "darkColor":        "001A4D",
+    "stockExchange":    "NSE / BSE",
+    "tickerSymbol":     "TCS",
+    "fiscalYear":       "April 2024 – March 2025",
+    "registeredOffice": "9th Floor, Nirmal Building, Nariman Point, Mumbai – 400 021",
+    "cin":              "L22210MH1995PLC084781"
+  },
+
+  "chapters": [
+
+    {
+      "title":    "About TCS",
+      "subtitle": "",
+      "sections": [
+
+        {
+          "type":     "text",
+          "title":    "Company Overview",
+          "subtitle": "Who we are",
+          "body":     "Tata Consultancy Services (TCS) is a digital transformation and technology partner of choice for industry-leading organizations worldwide. Since its inception in 1968, TCS has upheld the highest standards of innovation, engineering excellence and customer service.\n\nRooted in the heritage of the Tata Group, TCS is focused on creating long-term value for its clients, its investors, its associates, and the community at large.\n\nWith a global presence spanning 55 countries and over 607,000 highly skilled associates, TCS is one of the largest IT services companies in the world.",
+          "highlight": "TCS crossed the US $30 billion revenue milestone in FY 2025",
+          "quote":     "We are the partner of choice for enterprises building AI-first cultures.",
+          "subsections": []
+        },
+
+        {
+          "type":    "kpi",
+          "title":   "Key Facts at a Glance",
+          "columns": 4,
+          "items": [
+            { "label": "Associates",          "value": "607,000+",        "delta": "",      "deltaPositive": true,  "subLabel": "Globally" },
+            { "label": "Countries",           "value": "55",              "delta": "",      "deltaPositive": true,  "subLabel": "Global presence" },
+            { "label": "Revenue (FY 2025)",   "value": "US $30B",         "delta": "+6.0%", "deltaPositive": true,  "subLabel": "USD" },
+            { "label": "Delivery Centres",    "value": "200+",            "delta": "",      "deltaPositive": true,  "subLabel": "Worldwide" }
+          ]
+        },
+
+        {
+          "type":  "twoColumn",
+          "title": "Vision & Mission",
+          "left": {
+            "heading": "Our Vision",
+            "body":    "To be the world's most valued and trusted partner in every client engagement, enabling their transformation to AI-first, cloud-native enterprises."
+          },
+          "right": {
+            "heading": "Our Mission",
+            "body":    "To help customers achieve their business objectives by providing innovative, best-in-class consulting, IT solutions and services, and to make it a joy for all stakeholders to work with us."
+          }
+        },
+
+        {
+          "type":    "bullets",
+          "title":   "Core Business Segments",
+          "items":   [
+            "Banking, Financial Services & Insurance (BFSI)",
+            "Manufacturing",
+            "Consumer Business Group (Retail & CPG)",
+            "Technology & Services",
+            "Communications, Media & Information Services",
+            "Life Sciences, Healthcare, Energy, Resources & Utilities",
+            "Growth Markets (APAC, Middle East, Africa & Latin America)"
+          ],
+          "ordered": false
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Corporate Information",
+      "subtitle": "",
+      "sections": [
+
+        {
+          "type":    "table",
+          "title":   "Board of Directors",
+          "headers": ["Name", "Designation", "Category"],
+          "rows": [
+            ["N Chandrasekaran",          "Chairman",                          "Non-Independent, Non-Executive"],
+            ["K Krithivasan",             "CEO & Managing Director",           "Non-Independent, Executive"],
+            ["Aarthi Subramanian",        "Executive Director & President",    "Non-Independent, Executive"],
+            ["Dr Pradeep Kumar Khosla",   "Independent Director",              "Independent, Non-Executive"],
+            ["Hanne Sorensen",            "Independent Director",              "Independent, Non-Executive"],
+            ["Keki Mistry",               "Independent Director",              "Independent, Non-Executive"],
+            ["Al-Noor Ramji",             "Independent Director",              "Independent, Non-Executive"],
+            ["Sanjay V Bhandarkar",       "Independent Director",              "Independent, Non-Executive"]
+          ],
+          "caption":              "As of March 31, 2025",
+          "highlightLastRow":     false,
+          "highlightFirstColumn": true,
+          "columnAlignments":     ["left", "left", "left"]
+        },
+
+        {
+          "type":    "kpi",
+          "title":   "Board Statistics",
+          "columns": 3,
+          "items": [
+            { "label": "Average Age",         "value": "63 years",  "delta": "", "deltaPositive": true, "subLabel": "" },
+            { "label": "Average Tenure",      "value": "6 years",   "delta": "", "deltaPositive": true, "subLabel": "on the Board" },
+            { "label": "Board Independence",  "value": "62.5%",     "delta": "", "deltaPositive": true, "subLabel": "independent directors" }
+          ]
+        },
+
+        {
+          "type":    "team",
+          "title":   "Key Management Team",
+          "members": [
+            { "name": "K Krithivasan",       "role": "Chief Executive Officer & Managing Director",   "tenure": "Since 2023", "bio": "" },
+            { "name": "Aarthi Subramanian",  "role": "Executive Director – President & COO",           "tenure": "Since 2023", "bio": "" },
+            { "name": "Samir Seksaria",      "role": "Chief Financial Officer",                        "tenure": "Since 2022", "bio": "" },
+            { "name": "Milind Lakkad",       "role": "Chief Human Resources Officer",                  "tenure": "Since 2017", "bio": "" },
+            { "name": "Dr Harrick Vin",      "role": "Chief Technology Officer",                       "tenure": "Since 2020", "bio": "" },
+            { "name": "Yashaswin Sheth",     "role": "Company Secretary",                              "tenure": "Since 2022", "bio": "" }
+          ]
+        },
+
+        {
+          "type":     "text",
+          "title":    "Auditors & Key Contacts",
+          "subtitle": "",
+          "body":     "Statutory Auditors: B S R & Co. LLP, Chartered Accountants\n\nSecretarial Auditors: N L Bhatia & Associates\n\nRegistrar & Transfer Agent: MUFG Intime India Private Limited (formerly Link Intime India Private Limited)\n\nBankers: Citibank N.A. | HDFC Bank | ICICI Bank | State Bank of India",
+          "highlight": "",
+          "quote":    "",
+          "subsections": []
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Perpetually Adaptive Enterprise",
+      "subtitle": "Annual Report Theme FY 2024-25",
+      "sections": [
+
+        {
+          "type":     "text",
+          "title":    "Theme of the Year",
+          "subtitle": "",
+          "body":     "The TCS FY 2024-25 Integrated Annual Report highlights the rapidly changing world and the role of technology in addressing complex business problems. Recent years have seen unabating transformation, driven by emerging technologies, geopolitical dynamics, and shifting consumer expectations.\n\nIn this environment, the most resilient organizations are those that have become Perpetually Adaptive Enterprises — companies that sense, respond, and evolve continuously rather than episodically. TCS partners with such enterprises to embed adaptability into their DNA.\n\nFrom AI-led modernization to cloud-native architectures, from GenAI-powered customer experiences to intelligent supply chains — TCS is enabling clients to build the adaptive capabilities needed for long-term competitive advantage.",
+          "highlight": "The Perpetually Adaptive Enterprise is one that senses change in real time and reconfigures itself continuously.",
+          "quote":    "",
+          "subsections": []
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Letter from the Chairman",
+      "subtitle": "",
+      "sections": [
+
+        {
+          "type":        "quote",
+          "text":        "The single most transformative force in 2024 was Generative AI. GenAI is not just another tech cycle — it is a civilizational shift.",
+          "attribution": "— N Chandrasekaran",
+          "role":        "Chairman"
+        },
+
+        {
+          "type":  "textTwoColumn",
+          "title": "",
+          "body":  "Dear Shareholders,\n\nThe financial year 2025 was a year of profound global disruption. Widespread geopolitical conflicts, military escalations, and uncertain trade dynamics severely impacted global supply chains. Over 60 nations went to the polls, stalling policy continuity and reform agendas across several key markets.\n\nIn the face of this turbulence, your company demonstrated exceptional resilience. We partnered closely with our clients to help them perform under pressure while accelerating their transformation agendas. By harnessing the power of Generative AI and other emerging technologies, we enabled our clients to prepare for the future.\n\nFor example, we worked with a client to develop a GenAI-based drug discovery solution that created over 1,300 molecules for a concept target. For another client, we implemented a direct-to-consumer digital solution for the automotive industry. In another case, we modernized 50 million lines of legacy code into a modern AI-powered architecture.\n\nThese efforts contributed to a robust financial performance, with FY 2025 revenue of US $30 billion and an industry-leading operating margin of 24.3%. Your company was once again recognized as a Global Top Employer for the tenth successive year.\n\nThe evolving geopolitical landscape and the emergence of a multipolar world are now reshaping how global businesses operate. We are witnessing the rise of new paradigms, demanding a thorough reimagination of systems, processes, and technologies. TCS is proactively leading this change — we have systematically infused AI across our offerings and built intelligent agent solutions throughout the value chain.\n\nLooking ahead, we plan four distinct progressions: establishing AI agents working alongside our human workforce; delivering solutions through a human+AI model; investing in AI data centers and cloud infrastructure; and forging industry-best partnerships.\n\nWe remain steadfastly committed to leading the industry with purpose, innovation, and responsibility. Thank you for your continued trust and support.",
+          "quote":  "I believe every industry stands to benefit from GenAI — and the IT industry is no exception.",
+          "subsections": []
+        },
+
+        {
+          "type":      "signature",
+          "closing":   "Warm regards,",
+          "name":      "N Chandrasekaran",
+          "role":      "Chairman",
+          "nameColor": "003087"
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Letter from the CEO",
+      "subtitle": "",
+      "sections": [
+
+        {
+          "type":        "quote",
+          "text":        "Significant innovation is happening in the AI ecosystem across infrastructure, data platforms, models and AI-native business applications.",
+          "attribution": "— K Krithivasan",
+          "role":        "CEO & Managing Director"
+        },
+
+        {
+          "type":  "textTwoColumn",
+          "title": "",
+          "body":  "Dear Stakeholders,\n\nI am pleased to share that in FY 2025, we achieved two extraordinary milestones — crossing the US $30 billion mark in revenues and the US $20 billion mark in brand value. This success is a testament to the early investments we have made in strengthening client relationships, building intellectual property, and deepening employee capabilities.\n\nIn a very challenging geopolitical and macro-economic environment, the company reported an annual revenue of ₹255,324 crore in FY 2025, growing 6.0% year-on-year (4.2% in constant currency). Our disciplined execution delivered industry-leading margins of 24.3%, even as we accelerated investments in talent.\n\nOur net margin was at 19.0%. Earnings per share were at ₹134.19, a growth of 5.1% over the prior year. The Board has recommended a final dividend of ₹30 per share, bringing the total dividend for the year to ₹126 per share.\n\nWe reported a robust Total Contract Value (TCV) of US $39.4 billion — a balanced mix of large, medium and small deals. Our customer-centric focus is well recognized: we were ranked #1 for customer satisfaction in Europe for the 12th year in a row.",
+          "quote":  "We achieved two extraordinary milestones — crossing US $30B in revenues and US $20B in brand value.",
+          "subsections": [
+            {
+              "type":  "heading",
+              "text":  "Our AI Strategy — Six Focus Areas"
+            },
+            {
+              "type":    "bullets",
+              "items":   [
+                "Establishing AI Centers of Excellence for scalable Enterprise AI strategies",
+                "Creating AI Labs for technology experimentation with clients",
+                "Building safe, secure, scalable GenAI as a Service Platforms",
+                "Providing domain AI solutions with over 150 AI agents",
+                "Delivering GenAI-infused services for Software Engineering and IT operations",
+                "Setting up sovereign secure Cloud with integrated AI"
+              ],
+              "ordered": false
+            }
+          ]
+        },
+
+        {
+          "type":    "kpi",
+          "title":   "FY 2025 Performance Highlights",
+          "columns": 4,
+          "items": [
+            { "label": "Revenue",             "value": "₹2,55,324 cr", "delta": "+6.0%",  "deltaPositive": true,  "subLabel": "FY 2025" },
+            { "label": "Operating Margin",    "value": "24.3%",        "delta": "",        "deltaPositive": true,  "subLabel": "EBIT margin" },
+            { "label": "Net Margin",          "value": "19.0%",        "delta": "",        "deltaPositive": true,  "subLabel": "" },
+            { "label": "Dividend per Share",  "value": "₹126",         "delta": "",        "deltaPositive": true,  "subLabel": "Total FY 2025" }
+          ]
+        },
+
+        {
+          "type":      "signature",
+          "closing":   "With warm regards,",
+          "name":      "K Krithivasan",
+          "role":      "CEO & Managing Director",
+          "nameColor": "003087"
+        }
+
+      ]
+    },
+
+    {
+      "title":    "The Year Gone By",
+      "subtitle": "Key milestones and achievements in FY 2024-25",
+      "sections": [
+
+        {
+          "type":  "timeline",
+          "title": "Key Milestones FY 2024-25",
+          "items": [
+            { "year": "Q1 FY25",  "title": "TCS WisdomNext™ Launched",            "description": "Launched enterprise-grade GenAI platform TCS WisdomNext™ enabling clients to build AI-native solutions at scale." },
+            { "year": "Q2 FY25",  "title": "US $30B Revenue Milestone",           "description": "TCS crossed the US $30 billion annual revenue mark, becoming one of the very few IT services companies globally to achieve this." },
+            { "year": "Q3 FY25",  "title": "Partnership with Northern Trust",     "description": "Signed strategic partnership with Northern Trust for a next-generation global securities platform." },
+            { "year": "Q4 FY25",  "title": "FORTUNE Most Admired Companies 2025", "description": "TCS named in FORTUNE® World's Most Admired Companies 2025 list for the third consecutive year." }
+          ]
+        },
+
+        {
+          "type":    "bullets",
+          "title":   "Q4 FY 2025 Highlights",
+          "items":   [
+            "Final dividend of ₹30 per share recommended by the Board",
+            "Strategic collaboration with DNB, Norway's largest financial services group",
+            "Partnership with MassRobotics — the world's largest robotics hub",
+            "Five-year partnership with Air New Zealand for technology transformation",
+            "TCS named Global Top Employer for the 10th successive year",
+            "Primark selected TCS to transform technology operations across 17 countries",
+            "Xerox partnership for complete technology consolidation and AI integration"
+          ],
+          "ordered": false
+        },
+
+        {
+          "type":  "awards",
+          "title": "Awards & Recognition FY 2025",
+          "items": [
+            { "title": "Global Top Employer 2025",             "body": "Recognized as a Top Employer in 26 countries across 5 continents for the 10th successive year.",     "year": "2025" },
+            { "title": "FORTUNE Most Admired Companies",       "body": "Named in FORTUNE® World's Most Admired Companies list — 3rd consecutive year.",                       "year": "2025" },
+            { "title": "#1 Customer Satisfaction — Europe",   "body": "Ranked #1 for customer satisfaction in Europe by Whitelane Research for the 12th year in a row.",      "year": "2025" },
+            { "title": "Brand Value US $20 Billion",          "body": "TCS brand value crossed US $20 billion as per Brand Finance Global 500 report.",                       "year": "2025" },
+            { "title": "Leader — Gartner Magic Quadrant",     "body": "Positioned as a Leader in multiple Gartner Magic Quadrant reports for IT services.",                   "year": "2025" },
+            { "title": "Sustainability Leader",               "body": "Included in MSCI ESG Leaders Index and Dow Jones Sustainability Index for responsible business practices.", "year": "2025" }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Financial Highlights",
+      "subtitle": "Summary of key financial metrics for FY 2024-25",
+      "sections": [
+
+        {
+          "type":    "kpi",
+          "title":   "FY 2025 Financial Performance",
+          "columns": 4,
+          "items": [
+            { "label": "Revenue",             "value": "US $30.0B",    "delta": "+6.0% YoY",  "deltaPositive": true,  "subLabel": "USD" },
+            { "label": "Revenue (INR)",        "value": "₹2,55,324 cr", "delta": "+6.0% YoY", "deltaPositive": true,  "subLabel": "INR Crore" },
+            { "label": "EBIT Margin",          "value": "24.3%",        "delta": "",           "deltaPositive": true,  "subLabel": "Industry-leading" },
+            { "label": "Net Income Margin",    "value": "19.0%",        "delta": "",           "deltaPositive": true,  "subLabel": "" },
+            { "label": "EPS (Diluted)",        "value": "₹134.19",      "delta": "+5.1% YoY",  "deltaPositive": true,  "subLabel": "INR per share" },
+            { "label": "Total Contract Value", "value": "US $39.4B",    "delta": "",           "deltaPositive": true,  "subLabel": "TCV FY 2025" },
+            { "label": "Dividend per Share",   "value": "₹126",         "delta": "",           "deltaPositive": true,  "subLabel": "Total FY 2025" },
+            { "label": "Market Capitalisation","value": "₹14.2 lakh cr","delta": "",           "deltaPositive": true,  "subLabel": "As of Mar 2025" }
+          ]
+        },
+
+        {
+          "type":        "chart",
+          "title":       "Revenue Trend (US $ Billion)",
+          "chartType":   "bar",
+          "labels":      ["FY 2021", "FY 2022", "FY 2023", "FY 2024", "FY 2025"],
+          "datasets": [
+            { "label": "Revenue (US $B)", "data": [22.2, 25.7, 27.9, 29.1, 30.0] }
+          ],
+          "caption":     "Source: TCS Annual Reports. Currency: USD Billions.",
+          "yAxisPrefix": "$",
+          "yAxisSuffix": "B",
+          "showValues":  true,
+          "showLegend":  false
+        },
+
+        {
+          "type":        "chart",
+          "title":       "Net Income & Operating Margin Trend",
+          "chartType":   "line",
+          "labels":      ["FY 2021", "FY 2022", "FY 2023", "FY 2024", "FY 2025"],
+          "datasets": [
+            { "label": "Net Income (US $B)",  "data": [4.0, 4.6, 5.3, 5.5, 5.7] },
+            { "label": "Operating Margin (%)", "data": [25.0, 25.0, 24.1, 24.6, 24.3] }
+          ],
+          "caption":     "Operating margin held above 24% consistently over 5 years.",
+          "yAxisPrefix": "",
+          "yAxisSuffix": "",
+          "showValues":  true,
+          "showLegend":  true
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Management Discussion & Analysis",
+      "subtitle": "",
+      "sections": [
+
+        {
+          "type":     "text",
+          "title":    "Business Environment",
+          "subtitle": "",
+          "body":     "FY 2025 was characterized by an unusually complex and uncertain macro-environment. Persistent geopolitical tensions, evolving trade policies, and multi-year high interest rates weighed on discretionary technology spending. At the same time, the rapid advancement of Generative AI created urgency around transformation, as enterprises recognized the need to modernize their technology estates to remain competitive.\n\nDespite these headwinds, TCS demonstrated resilience rooted in its diversified portfolio, deep client relationships, and investment in emerging capabilities. The company maintained industry-leading margins while continuing to invest in talent, AI capabilities, and client-facing platforms.",
+          "highlight": "",
+          "quote":    "",
+          "subsections": []
+        },
+
+        {
+          "type":       "richText",
+          "title":      "Financial Performance Overview",
+          "subtitle":   "",
+          "highlight":  "",
+          "paragraphs": [
+            {
+              "runs": [
+                { "text": "Revenue for FY 2025 stood at ", "bold": false, "italic": false },
+                { "text": "₹2,55,324 crore",               "bold": true,  "italic": false },
+                { "text": " (US $30.0 billion), growing ", "bold": false, "italic": false },
+                { "text": "6.0%",                           "bold": true,  "italic": false },
+                { "text": " year-on-year in reported currency and ", "bold": false, "italic": false },
+                { "text": "4.2%",                           "bold": true,  "italic": false },
+                { "text": " in constant currency.", "bold": false, "italic": false }
+              ]
+            },
+            {
+              "runs": [
+                { "text": "Operating margin was maintained at a best-in-class ", "bold": false, "italic": false },
+                { "text": "24.3%",    "bold": true,  "italic": false },
+                { "text": ". Net income for the year was ", "bold": false, "italic": false },
+                { "text": "₹48,553 crore", "bold": true, "italic": false },
+                { "text": ", with earnings per share of ", "bold": false, "italic": false },
+                { "text": "₹134.19", "bold": true, "italic": false },
+                { "text": ", a growth of ", "bold": false, "italic": false },
+                { "text": "5.1%", "bold": true, "italic": false },
+                { "text": " over FY 2024.", "bold": false, "italic": false }
+              ]
+            },
+            {
+              "runs": [
+                { "text": "Total Contract Value (TCV) for the year was ", "bold": false, "italic": false },
+                { "text": "US $39.4 billion", "bold": true, "italic": false },
+                { "text": ", reflecting strong demand across deal sizes and geographies. Free cash flow conversion remained healthy at ", "bold": false, "italic": false },
+                { "text": "103.7%", "bold": true, "italic": false },
+                { "text": " of net income.", "bold": false, "italic": false }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type":     "financials",
+          "title":    "Income Statement Summary",
+          "currency": "INR",
+          "unit":     "Crore",
+          "periods":  ["FY 2022", "FY 2023", "FY 2024", "FY 2025"],
+          "items": [
+            { "label": "Revenue from Operations", "values": ["1,91,754", "2,25,458", "2,40,893", "2,55,324"], "bold": false, "indent": false, "separator": false },
+            { "label": "Other Income",            "values": ["4,278",    "5,192",    "5,782",    "6,114"],    "bold": false, "indent": false, "separator": false },
+            { "label": "Total Income",            "values": ["1,96,032", "2,30,650", "2,46,675", "2,61,438"], "bold": true,  "indent": false, "separator": true  },
+            { "label": "Employee Costs",          "values": ["1,05,000", "1,22,700", "1,29,400", "1,35,800"], "bold": false, "indent": true,  "separator": false },
+            { "label": "Other Operating Expenses","values": ["38,000",   "44,500",   "47,200",   "50,100"],   "bold": false, "indent": true,  "separator": false },
+            { "label": "Total Expenses",          "values": ["1,43,000", "1,67,200", "1,76,600", "1,85,900"], "bold": true,  "indent": false, "separator": true  },
+            { "label": "Operating Income (EBIT)", "values": ["48,000",   "54,300",   "57,500",   "62,100"],   "bold": true,  "indent": false, "separator": false },
+            { "label": "Profit Before Tax",       "values": ["52,278",   "59,492",   "63,282",   "68,214"],   "bold": true,  "indent": false, "separator": true  },
+            { "label": "Tax Expense",             "values": ["13,500",   "15,800",   "16,800",   "19,661"],   "bold": false, "indent": true,  "separator": false },
+            { "label": "Net Income (PAT)",         "values": ["38,778",   "43,692",   "46,482",   "48,553"],   "bold": true,  "indent": false, "separator": true  },
+            { "label": "EPS — Basic (₹)",         "values": ["104.12",   "118.10",   "127.74",   "134.19"],   "bold": false, "indent": false, "separator": false }
+          ],
+          "caption": "All figures in INR Crore unless stated. EPS in INR per share."
+        },
+
+        {
+          "type":     "text",
+          "title":    "Segment-wise Performance",
+          "subtitle": "",
+          "body":     "Banking, Financial Services & Insurance (BFSI): Revenue of ₹89,000 crore, contributing 34.9% of total revenue. Growth driven by regulatory technology, cloud migration, and GenAI adoption in retail banking.\n\nManufacturing: Revenue of ₹36,400 crore, contributing 14.3%. Strong demand for supply chain resilience solutions and smart factory implementations.\n\nConsumer Business Group: Revenue of ₹28,100 crore, contributing 11.0%. E-commerce platform modernization and omni-channel transformation drove growth.\n\nTechnology & Services: Revenue of ₹25,800 crore, contributing 10.1%. AI-led modernization and cloud-native development fueled demand.",
+          "highlight": "",
+          "quote":    "",
+          "subsections": []
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Strategy & Growth",
+      "subtitle": "Business strategy, expansion plans, and innovation initiatives",
+      "sections": [
+
+        {
+          "type":     "text",
+          "title":    "Strategic Priorities",
+          "subtitle": "",
+          "body":     "TCS's strategy for FY 2025 and beyond is anchored on three pillars: becoming the AI-first transformation partner of choice, building a future-ready workforce at scale, and deepening long-term client relationships through outcome-based engagements.",
+          "highlight": "TCS will have the largest AI-trained workforce in the IT industry by 2025.",
+          "quote":    "",
+          "subsections": [
+            {
+              "type": "heading",
+              "text": "AI-First Transformation"
+            },
+            {
+              "type": "paragraph",
+              "text": "TCS is embedding AI across its entire portfolio — from software engineering and IT operations to business process services. The launch of TCS WisdomNext™ marks a step-change in how the company delivers AI-native solutions to enterprise clients."
+            },
+            {
+              "type": "heading",
+              "text": "Cloud & Digital Infrastructure"
+            },
+            {
+              "type": "paragraph",
+              "text": "TCS is investing in sovereign cloud capabilities, hybrid cloud management, and edge computing infrastructure. These investments position TCS as a one-stop partner for enterprises navigating complex multi-cloud environments."
+            },
+            {
+              "type": "heading",
+              "text": "Talent & Culture"
+            },
+            {
+              "type": "paragraph",
+              "text": "With over 607,000 associates trained on AI and emerging technologies, TCS's human capital strategy is centered on continuous reskilling, contextual learning, and building an inclusive, purpose-driven culture."
+            }
+          ]
+        },
+
+        {
+          "type":    "bullets",
+          "title":   "Key Partnerships & Collaborations FY 2025",
+          "items":   [
+            "Northern Trust — next-generation global securities platform",
+            "Primark — technology transformation across 17 countries in Europe and the US",
+            "Xerox — full technology consolidation and GenAI integration",
+            "Air New Zealand — 5-year digital transformation partnership",
+            "DNB Bank — strategic collaboration for cloud-based banking modernization",
+            "MassRobotics — robotics and AI co-innovation partnership"
+          ],
+          "ordered": false
+        },
+
+        {
+          "type":  "timeline",
+          "title": "Innovation Milestones",
+          "items": [
+            { "year": "2022", "title": "TCS Pace™ Port Network",   "description": "Expanded co-innovation network to 30 locations globally for rapid prototyping with clients and startups." },
+            { "year": "2023", "title": "GenAI Practice Launch",    "description": "Established dedicated Generative AI practice, training 100,000+ associates in 12 months." },
+            { "year": "2024", "title": "AI.Cloud Unit",            "description": "Formed AI.Cloud business unit combining cloud infrastructure and AI capabilities into a single offering." },
+            { "year": "2025", "title": "TCS WisdomNext™",          "description": "Launched enterprise GenAI platform enabling agentic AI workflows across client enterprises." }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "title":    "ESG & Sustainability",
+      "subtitle": "Environmental, Social, and Governance commitments",
+      "sections": [
+
+        {
+          "type":    "kpi",
+          "title":   "ESG Scorecard FY 2025",
+          "columns": 4,
+          "items": [
+            { "label": "Carbon Reduction",       "value": "70%",       "delta": "",    "deltaPositive": true, "subLabel": "vs 2016 baseline" },
+            { "label": "Renewable Energy",       "value": "62%",       "delta": "+5%", "deltaPositive": true, "subLabel": "of total consumption" },
+            { "label": "Women in Workforce",     "value": "35.7%",     "delta": "",    "deltaPositive": true, "subLabel": "of total associates" },
+            { "label": "CSR Spend",              "value": "₹823 crore","delta": "",    "deltaPositive": true, "subLabel": "FY 2025" }
+          ]
+        },
+
+        {
+          "type":  "twoColumn",
+          "title": "ESG Commitments",
+          "left": {
+            "heading": "Environmental",
+            "body":    "TCS has committed to achieving net-zero carbon emissions by 2030. The company reduced absolute carbon emissions by 70% since FY 2016 through energy efficiency programs, renewable energy procurement, and green building certifications across its campus network. All TCS campuses are ISO 50001 certified."
+          },
+          "right": {
+            "heading": "Social",
+            "body":    "TCS's Xcelerate scholarship program supported 50,000 students in FY 2025. The BridgeIT program provided digital literacy training to over 1 million youth in rural India. TCS iON delivered 130 million assessments across 16 countries, empowering education at scale."
+          }
+        },
+
+        {
+          "type":     "text",
+          "title":    "Governance",
+          "subtitle": "",
+          "body":     "TCS maintains highest standards of corporate governance supported by an independent Board with 62.5% independent directors. The company has zero tolerance for corruption, maintaining a comprehensive Code of Conduct, whistleblower mechanisms, and regular ethics training across all geographies.\n\nTCS is included in the MSCI ESG Leaders Index, Dow Jones Sustainability Index, and FTSE4Good Index Series.",
+          "highlight": "",
+          "quote":    "",
+          "subsections": []
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Risk Management",
+      "subtitle": "Key risks and mitigation strategies",
+      "sections": [
+
+        {
+          "type":     "text",
+          "title":    "Risk Management Framework",
+          "subtitle": "",
+          "body":     "TCS employs an Enterprise Risk Management (ERM) framework aligned with ISO 31000 standards. Risks are identified, assessed, and monitored through a three-tier governance structure — Board-level Risk Management Committee, Executive Risk Council, and Business Unit Risk Officers.",
+          "highlight": "",
+          "quote":    "",
+          "subsections": []
+        },
+
+        {
+          "type":    "table",
+          "title":   "Key Risk Register",
+          "headers": ["Risk Category", "Description", "Likelihood", "Impact", "Mitigation"],
+          "rows": [
+            ["Geopolitical Risk",   "Trade restrictions, sanctions, and political instability affecting global operations", "High",   "High",   "Geographic diversification; local delivery centers in 55 countries"],
+            ["Technology Risk",     "Cybersecurity threats, data breaches, and rapid AI disruption",                       "High",   "High",   "ISO 27001 certification; 24x7 SOC; continuous AI capability investment"],
+            ["Talent Risk",         "Attrition, skills gap in emerging technologies like GenAI",                           "Medium", "High",   "Industry-leading retention programs; reskilling 600,000+ associates"],
+            ["Market Risk",         "Slowdown in IT spending due to macro uncertainty",                                    "Medium", "Medium", "Diversified client portfolio; long-term contracts; strong TCV pipeline"],
+            ["Regulatory Risk",     "Data privacy laws (GDPR, DPDP Act) and cross-border data restrictions",              "Low",    "High",   "Dedicated compliance teams; sovereign cloud offerings; legal monitoring"],
+            ["Concentration Risk",  "High revenue dependency on BFSI and North America segments",                         "Low",    "Medium", "Increasing mix in Manufacturing, Retail, and Growth Markets"]
+          ],
+          "caption":              "Risk ratings as assessed by the Risk Management Committee, FY 2025",
+          "highlightLastRow":     false,
+          "highlightFirstColumn": true,
+          "columnAlignments":     ["left","left","center","center","left"]
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Directors' Report",
+      "subtitle": "Legal disclosures and board statements",
+      "sections": [
+
+        {
+          "type":     "text",
+          "title":    "Board Statement",
+          "subtitle": "",
+          "body":     "Dear Members,\n\nThe Board of Directors of Tata Consultancy Services Limited is pleased to present the Integrated Annual Report along with the audited financial statements for the financial year ended March 31, 2025.\n\nThe company achieved revenue of ₹2,55,324 crore in FY 2025, growing 6.0% over FY 2024. Net income for the year was ₹48,553 crore. The Board recommends a final dividend of ₹30 per share (face value ₹1 per share) for FY 2025, bringing the total dividend for the year to ₹126 per share.\n\nThe company has complied with all applicable provisions of the Companies Act 2013, SEBI Listing Obligations and Disclosure Requirements Regulations 2015, and other applicable laws across all jurisdictions.",
+          "highlight": "",
+          "quote":    "",
+          "subsections": []
+        },
+
+        {
+          "type":    "kpi",
+          "title":   "Dividend Summary",
+          "columns": 3,
+          "items": [
+            { "label": "Interim Dividend",  "value": "₹96 per share",  "delta": "", "deltaPositive": true, "subLabel": "Paid during FY 2025" },
+            { "label": "Final Dividend",    "value": "₹30 per share",  "delta": "", "deltaPositive": true, "subLabel": "Recommended" },
+            { "label": "Total Dividend",    "value": "₹126 per share", "delta": "", "deltaPositive": true, "subLabel": "Payout ratio: 94%" }
+          ]
+        },
+
+        {
+          "type":    "bullets",
+          "title":   "Key Statutory Disclosures",
+          "items":   [
+            "No material changes or commitments affecting the financial position occurred between March 31, 2025 and the date of this report",
+            "The company has not accepted any deposits under Chapter V of the Companies Act, 2013",
+            "There are no significant or material orders passed by regulators, courts, or tribunals",
+            "The company has complied with Secretarial Standards SS-1 and SS-2 issued by ICSI",
+            "No fraud has been reported by the Auditors under Section 143(12) of the Companies Act",
+            "The company has adequate internal financial controls and they are operating effectively"
+          ],
+          "ordered": false
+        }
+
+      ]
+    },
+
+    {
+      "title":    "Financial Statements",
+      "subtitle": "Audited consolidated financial statements",
+      "sections": [
+
+        {
+          "type": "pageBreak"
+        },
+
+        {
+          "type":     "financials",
+          "title":    "Consolidated Balance Sheet",
+          "currency": "INR",
+          "unit":     "Crore",
+          "periods":  ["March 31, 2024", "March 31, 2025"],
+          "items": [
+            { "label": "ASSETS",                         "values": ["",          ""],          "bold": true,  "indent": false, "separator": false },
+            { "label": "Property, Plant & Equipment",    "values": ["18,254",    "17,820"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Right-of-Use Assets",            "values": ["6,112",     "5,843"],     "bold": false, "indent": true,  "separator": false },
+            { "label": "Goodwill & Intangibles",         "values": ["3,210",     "3,108"],     "bold": false, "indent": true,  "separator": false },
+            { "label": "Investments (Non-current)",      "values": ["31,450",    "38,900"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Trade Receivables",              "values": ["38,280",    "40,116"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Cash & Cash Equivalents",        "values": ["8,114",     "9,217"],     "bold": false, "indent": true,  "separator": false },
+            { "label": "Other Current Assets",           "values": ["22,380",    "24,100"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "TOTAL ASSETS",                   "values": ["1,27,800",  "1,39,104"],  "bold": true,  "indent": false, "separator": true  },
+            { "label": "EQUITY & LIABILITIES",           "values": ["",          ""],          "bold": true,  "indent": false, "separator": false },
+            { "label": "Equity Share Capital",           "values": ["366",       "366"],       "bold": false, "indent": true,  "separator": false },
+            { "label": "Reserves & Surplus",             "values": ["84,120",    "89,240"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Total Equity",                   "values": ["84,486",    "89,606"],    "bold": true,  "indent": false, "separator": true  },
+            { "label": "Lease Liabilities",              "values": ["6,204",     "5,938"],     "bold": false, "indent": true,  "separator": false },
+            { "label": "Trade Payables",                 "values": ["9,812",     "10,440"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Other Current Liabilities",      "values": ["27,298",    "33,120"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "TOTAL EQUITY & LIABILITIES",     "values": ["1,27,800",  "1,39,104"],  "bold": true,  "indent": false, "separator": true  }
+          ],
+          "caption": "All figures in INR Crore. Prepared in accordance with Ind AS."
+        },
+
+        {
+          "type": "pageBreak"
+        },
+
+        {
+          "type":     "financials",
+          "title":    "Consolidated Statement of Profit & Loss",
+          "currency": "INR",
+          "unit":     "Crore",
+          "periods":  ["FY 2024", "FY 2025"],
+          "items": [
+            { "label": "Revenue from Operations",   "values": ["2,40,893", "2,55,324"], "bold": false, "indent": false, "separator": false },
+            { "label": "Other Income",              "values": ["5,782",    "6,114"],    "bold": false, "indent": false, "separator": false },
+            { "label": "TOTAL INCOME",              "values": ["2,46,675", "2,61,438"], "bold": true,  "indent": false, "separator": true  },
+            { "label": "Employee Benefits Expense", "values": ["1,29,400", "1,35,800"], "bold": false, "indent": true,  "separator": false },
+            { "label": "Finance Costs",             "values": ["784",      "820"],      "bold": false, "indent": true,  "separator": false },
+            { "label": "Depreciation",              "values": ["6,210",    "6,540"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Other Expenses",            "values": ["46,999",   "49,064"],   "bold": false, "indent": true,  "separator": false },
+            { "label": "TOTAL EXPENSES",            "values": ["1,83,393", "1,92,224"], "bold": true,  "indent": false, "separator": true  },
+            { "label": "Profit Before Tax",         "values": ["63,282",   "69,214"],   "bold": true,  "indent": false, "separator": false },
+            { "label": "Income Tax Expense",        "values": ["16,800",   "20,661"],   "bold": false, "indent": true,  "separator": false },
+            { "label": "PROFIT AFTER TAX",          "values": ["46,482",   "48,553"],   "bold": true,  "indent": false, "separator": true  },
+            { "label": "EPS — Basic (₹)",           "values": ["127.74",   "134.19"],   "bold": false, "indent": false, "separator": false },
+            { "label": "EPS — Diluted (₹)",         "values": ["127.69",   "134.14"],   "bold": false, "indent": false, "separator": false }
+          ],
+          "caption": "All figures in INR Crore. EPS in INR per share."
+        },
+
+        {
+          "type": "pageBreak"
+        },
+
+        {
+          "type":     "financials",
+          "title":    "Consolidated Cash Flow Statement",
+          "currency": "INR",
+          "unit":     "Crore",
+          "periods":  ["FY 2024", "FY 2025"],
+          "items": [
+            { "label": "Net Cash from Operating Activities",   "values": ["48,210",    "50,340"],    "bold": true,  "indent": false, "separator": false },
+            { "label": "  Profit After Tax",                   "values": ["46,482",    "48,553"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "  Add: Depreciation",                  "values": ["6,210",     "6,540"],     "bold": false, "indent": true,  "separator": false },
+            { "label": "  Changes in Working Capital",         "values": ["-4,482",    "-4,753"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "Net Cash from Investing Activities",   "values": ["-18,320",   "-21,100"],   "bold": true,  "indent": false, "separator": false },
+            { "label": "  Capital Expenditure",                "values": ["-4,200",    "-4,600"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "  Net Investment Activity",            "values": ["-14,120",   "-16,500"],   "bold": false, "indent": true,  "separator": false },
+            { "label": "Net Cash from Financing Activities",   "values": ["-30,110",   "-48,240"],   "bold": true,  "indent": false, "separator": false },
+            { "label": "  Dividends Paid",                     "values": ["-40,640",   "-45,588"],   "bold": false, "indent": true,  "separator": false },
+            { "label": "  Buyback & Other",                    "values": ["10,530",    "-2,652"],    "bold": false, "indent": true,  "separator": false },
+            { "label": "NET CHANGE IN CASH",                   "values": ["-220",      "-19,000"],   "bold": true,  "indent": false, "separator": true  },
+            { "label": "Opening Cash & Equivalents",           "values": ["8,334",     "8,114"],     "bold": false, "indent": false, "separator": false },
+            { "label": "CLOSING CASH & EQUIVALENTS",           "values": ["8,114",     "9,217"],     "bold": true,  "indent": false, "separator": true  }
+          ],
+          "caption": "All figures in INR Crore."
+        }
+
+      ]
+    }
+
+  ]
+}

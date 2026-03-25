@@ -1,0 +1,1547 @@
+{
+  "_template_instructions": {
+    "how_to_use": [
+      "1. Find every value that starts with << and ends with >>",
+      "2. Replace it with your actual company data",
+      "3. Remove any section blocks you don't need (delete the {} object)",
+      "4. Duplicate any section block you need more of (copy-paste the {} object)",
+      "5. Delete this _template_instructions key before generating the docx",
+      "6. Run: npx ts-node src/index.ts data/your_report.json output/report.docx"
+    ],
+    "placeholder_guide": {
+      "<<TEXT>>": "Replace with a plain string",
+      "<<NUMBER>>": "Replace with a number (no quotes)",
+      "<<HEX_COLOR>>": "Replace with 6-digit hex color without # e.g. 003087",
+      "<<FILENAME>>": "Replace with image filename in your data/ folder e.g. logo.png",
+      "<<YEAR>>": "Replace with fiscal year string e.g. 2024-25",
+      "<<REMOVE_IF_UNUSED>>": "Delete this entire section block if not applicable"
+    },
+    "section_type_reference": {
+      "text": "Heading + body paragraphs + optional pull quote",
+      "richText": "Paragraphs with inline bold numbers/stats",
+      "textTwoColumn": "Two-column layout with subsections and optional pull quote",
+      "kpi": "Metric cards (value + delta + label)",
+      "chart": "Bar / line / pie / doughnut chart",
+      "table": "Data table with headers and rows",
+      "financials": "Income statement / balance sheet style with bold totals",
+      "bullets": "Ordered or unordered list",
+      "quote": "Pull quote with attribution",
+      "signature": "Closing block with name and role",
+      "team": "Grid of people with name, role, tenure",
+      "timeline": "Year-by-year milestones",
+      "twoColumn": "Two columns each with separate heading + body",
+      "awards": "Awards grid (title, body, year)",
+      "comparison": "Feature matrix / competitor comparison table",
+      "image": "Embedded image with caption",
+      "divider": "Horizontal rule / section separator",
+      "pageBreak": "Force next content to start on a new page"
+    }
+  },
+  "meta": {
+    "companyName": "<<FULL COMPANY NAME e.g. Tata Consultancy Services>>",
+    "tagline": "<<ONE LINE TAGLINE e.g. Building on belief>>",
+    "reportTitle": "<<REPORT TITLE e.g. Integrated Annual Report>>",
+    "reportYear": "<<FISCAL YEAR e.g. 2024-25>>",
+    "preparedBy": "<<DEPARTMENT e.g. Investor Relations>>",
+    "website": "<<WEBSITE e.g. www.tcs.com>>",
+    "logoPath": "<<LOGO FILENAME e.g. company-logo.png>>",
+    "accentColor": "<<PRIMARY COLOR HEX e.g. 003087>>",
+    "secondaryColor": "<<SECONDARY COLOR HEX e.g. 00AEEF>>",
+    "darkColor": "<<DARK COLOR HEX e.g. 0D1F3C>>",
+    "stockExchange": "<<EXCHANGE e.g. NSE / BSE>>",
+    "tickerSymbol": "<<TICKER e.g. TCS>>",
+    "fiscalYear": "<<FISCAL PERIOD e.g. April 2024 – March 2025>>",
+    "registeredOffice": "<<REGISTERED ADDRESS>>",
+    "cin": "<<CIN / REGISTRATION NUMBER e.g. L22210MH1995PLC084781>>"
+  },
+  "chapters": [
+    {
+      "title": "About <<COMPANY SHORT NAME e.g. TCS>>",
+      "subtitle": "",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Company Overview",
+          "subtitle": "",
+          "body": "<<PARAGRAPH 1: Who the company is, what it does, when founded>>\n\n<<PARAGRAPH 2: Core values, heritage, mission>>\n\n<<PARAGRAPH 3: Scale, global presence, key differentiators>>",
+          "highlight": "<<OPTIONAL: One-line callout stat or fact — leave empty string if not needed>>",
+          "quote": "<<OPTIONAL: A short pull quote from the overview — leave empty string if not needed>>",
+          "subsections": []
+        },
+        {
+          "type": "kpi",
+          "title": "Key Facts at a Glance",
+          "columns": 4,
+          "items": [
+            {
+              "label": "<<METRIC 1 e.g. Employees>>",
+              "value": "<<VALUE e.g. 607,000+>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "<<SUBLABEL e.g. Full-time>>"
+            },
+            {
+              "label": "<<METRIC 2 e.g. Countries>>",
+              "value": "<<VALUE e.g. 55>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "<<SUBLABEL e.g. Global presence>>"
+            },
+            {
+              "label": "<<METRIC 3 e.g. Revenue>>",
+              "value": "<<VALUE e.g. US $30 billion>>",
+              "delta": "<<e.g. +6%>>",
+              "deltaPositive": true,
+              "subLabel": "<<SUBLABEL e.g. FY 2025>>"
+            },
+            {
+              "label": "<<METRIC 4 e.g. Delivery Centres>>",
+              "value": "<<VALUE e.g. 200+>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "title": "Our Global Presence",
+          "path": "<<IMAGE FILENAME e.g. global-map.jpg>>",
+          "width": 580,
+          "height": 320,
+          "caption": "<<IMAGE CAPTION e.g. 6 continents • 55 countries • 607,000+ associates>>",
+          "align": "center"
+        },
+        {
+          "type": "twoColumn",
+          "title": "Vision & Mission",
+          "left": {
+            "heading": "Our Vision",
+            "body": "<<COMPANY VISION STATEMENT>>"
+          },
+          "right": {
+            "heading": "Our Mission",
+            "body": "<<COMPANY MISSION STATEMENT>>"
+          }
+        },
+        {
+          "type": "bullets",
+          "title": "Core Business Segments",
+          "items": [
+            "<<SEGMENT 1 e.g. Banking, Financial Services & Insurance>>",
+            "<<SEGMENT 2 e.g. Manufacturing>>",
+            "<<SEGMENT 3 e.g. Consumer Business Group>>",
+            "<<SEGMENT 4 e.g. Technology & Services>>",
+            "<<ADD OR REMOVE ITEMS AS NEEDED>>"
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "title": "Corporate Information",
+      "subtitle": "",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Board of Directors",
+          "headers": [
+            "Name",
+            "Designation",
+            "Category"
+          ],
+          "rows": [
+            [
+              "<<DIRECTOR 1 NAME>>",
+              "<<ROLE e.g. Chairman>>",
+              "<<e.g. Non-Independent, Non-Executive>>"
+            ],
+            [
+              "<<DIRECTOR 2 NAME>>",
+              "<<ROLE e.g. CEO & MD>>",
+              "<<e.g. Non-Independent, Executive>>"
+            ],
+            [
+              "<<DIRECTOR 3 NAME>>",
+              "<<ROLE e.g. Independent Director>>",
+              "<<e.g. Independent, Non-Executive>>"
+            ],
+            [
+              "<<DIRECTOR 4 NAME>>",
+              "<<ROLE>>",
+              "<<CATEGORY>>"
+            ],
+            [
+              "<<ADD MORE ROWS AS NEEDED>>",
+              "",
+              ""
+            ]
+          ],
+          "caption": "As of <<DATE e.g. March 31, 2025>>",
+          "highlightLastRow": false,
+          "highlightFirstColumn": true,
+          "columnAlignments": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "type": "kpi",
+          "title": "Board Statistics",
+          "columns": 3,
+          "items": [
+            {
+              "label": "Average Age",
+              "value": "<<e.g. 63 years>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": ""
+            },
+            {
+              "label": "Average Tenure",
+              "value": "<<e.g. 6 years>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "on the board"
+            },
+            {
+              "label": "Board Independence",
+              "value": "<<e.g. 62.5%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "independent directors"
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "title": "Key Management Team",
+          "members": [
+            {
+              "name": "<<NAME>>",
+              "role": "<<ROLE e.g. Chief Executive Officer>>",
+              "tenure": "<<e.g. Since 2022>>",
+              "bio": ""
+            },
+            {
+              "name": "<<NAME>>",
+              "role": "<<ROLE e.g. Chief Financial Officer>>",
+              "tenure": "<<e.g. Since 2020>>",
+              "bio": ""
+            },
+            {
+              "name": "<<NAME>>",
+              "role": "<<ROLE e.g. Chief Operating Officer>>",
+              "tenure": "<<e.g. Since 2021>>",
+              "bio": ""
+            },
+            {
+              "name": "<<NAME>>",
+              "role": "<<ROLE e.g. Chief Human Resources Officer>>",
+              "tenure": "",
+              "bio": ""
+            },
+            {
+              "name": "<<NAME>>",
+              "role": "<<ROLE e.g. Chief Technology Officer>>",
+              "tenure": "",
+              "bio": ""
+            },
+            {
+              "name": "<<NAME>>",
+              "role": "<<ROLE e.g. Company Secretary>>",
+              "tenure": "",
+              "bio": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Auditors & Other Key Contacts",
+          "subtitle": "",
+          "body": "Statutory Auditors: <<AUDITOR NAME e.g. B S R & Co. LLP>>\n\nSecretarial Auditors: <<SECRETARIAL AUDITOR NAME>>\n\nRegistrar & Transfer Agent: <<RTA NAME>>\n\nBankers: <<BANKER NAMES>>",
+          "highlight": "",
+          "quote": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "<<REPORT THEME e.g. Perpetually Adaptive Enterprise>>",
+      "subtitle": "",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Theme of the Year",
+          "subtitle": "",
+          "body": "<<DESCRIBE THE ANNUAL REPORT THEME IN 2-3 PARAGRAPHS>>\n\n<<PARAGRAPH 2>>\n\n<<PARAGRAPH 3>>",
+          "highlight": "<<OPTIONAL CALLOUT STAT OR KEY PHRASE>>",
+          "quote": "",
+          "subsections": []
+        },
+        {
+          "type": "image",
+          "title": "",
+          "path": "<<THEME IMAGE FILENAME e.g. theme-cover.jpg>>",
+          "width": 580,
+          "height": 300,
+          "caption": "<<IMAGE CAPTION>>",
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "title": "Letter from the Chairman",
+      "subtitle": "",
+      "sections": [
+        {
+          "type": "quote",
+          "text": "<<CHAIRMAN'S KEY QUOTE — one impactful sentence from the letter>>",
+          "attribution": "— <<CHAIRMAN NAME>>",
+          "role": "Chairman"
+        },
+        {
+          "type": "textTwoColumn",
+          "title": "",
+          "body": "<<PARAGRAPH 1 OF LETTER>>\n\n<<PARAGRAPH 2 OF LETTER>>\n\n<<PARAGRAPH 3 OF LETTER>>\n\n<<PARAGRAPH 4 OF LETTER>>\n\n<<PARAGRAPH 5 OF LETTER>>\n\n<<PARAGRAPH 6 OF LETTER>>\n\n<<PARAGRAPH 7 OF LETTER>>",
+          "quote": "<<PULL QUOTE TO SHOW INSIDE THE TWO COLUMN LAYOUT>>",
+          "subsections": []
+        },
+        {
+          "type": "image",
+          "title": "",
+          "path": "<<CHAIRMAN PHOTO FILENAME e.g. chairman.jpg>>",
+          "width": 200,
+          "height": 250,
+          "caption": "<<CHAIRMAN NAME>>, Chairman",
+          "align": "left"
+        },
+        {
+          "type": "signature",
+          "closing": "Warm regards,",
+          "name": "<<CHAIRMAN FULL NAME>>",
+          "role": "Chairman",
+          "nameColor": "<<HEX COLOR e.g. 003087>>"
+        }
+      ]
+    },
+    {
+      "title": "Letter from the CEO",
+      "subtitle": "",
+      "sections": [
+        {
+          "type": "quote",
+          "text": "<<CEO'S KEY QUOTE>>",
+          "attribution": "— <<CEO NAME>>",
+          "role": "CEO & Managing Director"
+        },
+        {
+          "type": "textTwoColumn",
+          "title": "",
+          "body": "<<PARAGRAPH 1>>\n\n<<PARAGRAPH 2>>\n\n<<PARAGRAPH 3>>\n\n<<PARAGRAPH 4>>\n\n<<PARAGRAPH 5>>",
+          "quote": "<<OPTIONAL PULL QUOTE INSIDE THE TWO COLUMN BODY>>",
+          "subsections": [
+            {
+              "type": "bullets",
+              "items": [
+                "<<BULLET POINT 1 e.g. key initiative or achievement>>",
+                "<<BULLET POINT 2>>",
+                "<<BULLET POINT 3>>",
+                "<<BULLET POINT 4>>",
+                "<<ADD OR REMOVE AS NEEDED>>"
+              ],
+              "ordered": false
+            }
+          ]
+        },
+        {
+          "type": "kpi",
+          "title": "<<FISCAL YEAR e.g. FY 2025>> Performance",
+          "columns": 4,
+          "items": [
+            {
+              "label": "Revenue",
+              "value": "<<e.g. ₹255,324 crore>>",
+              "delta": "<<e.g. +6.0%>>",
+              "deltaPositive": true,
+              "subLabel": "<<e.g. FY 2025>>"
+            },
+            {
+              "label": "Operating Margin",
+              "value": "<<e.g. 24.3%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "EBIT margin"
+            },
+            {
+              "label": "Net Margin",
+              "value": "<<e.g. 19.0%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": ""
+            },
+            {
+              "label": "Dividend/Share",
+              "value": "<<e.g. ₹126>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "Total for the year"
+            }
+          ]
+        },
+        {
+          "type": "signature",
+          "closing": "With warm regards,",
+          "name": "<<CEO FULL NAME>>",
+          "role": "CEO & Managing Director",
+          "nameColor": "<<HEX COLOR e.g. 003087>>"
+        }
+      ]
+    },
+    {
+      "title": "The Year Gone By",
+      "subtitle": "Key events, milestones, and achievements",
+      "sections": [
+        {
+          "type": "timeline",
+          "title": "Key Milestones <<FISCAL YEAR e.g. FY 2024-25>>",
+          "items": [
+            {
+              "year": "Q1 <<YEAR>>",
+              "title": "<<MILESTONE TITLE>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            },
+            {
+              "year": "Q2 <<YEAR>>",
+              "title": "<<MILESTONE TITLE>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            },
+            {
+              "year": "Q3 <<YEAR>>",
+              "title": "<<MILESTONE TITLE>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            },
+            {
+              "year": "Q4 <<YEAR>>",
+              "title": "<<MILESTONE TITLE>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            }
+          ]
+        },
+        {
+          "type": "bullets",
+          "title": "Q4 Highlights",
+          "items": [
+            "<<HIGHLIGHT 1 e.g. Final dividend of ₹30 per share declared>>",
+            "<<HIGHLIGHT 2 e.g. Strategic partnership with XYZ>>",
+            "<<HIGHLIGHT 3 e.g. Won award: XYZ>>",
+            "<<HIGHLIGHT 4>>",
+            "<<HIGHLIGHT 5>>",
+            "<<ADD OR REMOVE AS NEEDED>>"
+          ],
+          "ordered": false
+        },
+        {
+          "type": "awards",
+          "title": "Awards & Recognition",
+          "items": [
+            {
+              "title": "<<AWARD NAME>>",
+              "body": "<<AWARD DESCRIPTION>>",
+              "year": "<<YEAR>>"
+            },
+            {
+              "title": "<<AWARD NAME>>",
+              "body": "<<AWARD DESCRIPTION>>",
+              "year": "<<YEAR>>"
+            },
+            {
+              "title": "<<AWARD NAME>>",
+              "body": "<<AWARD DESCRIPTION>>",
+              "year": "<<YEAR>>"
+            },
+            {
+              "title": "<<AWARD NAME>>",
+              "body": "<<AWARD DESCRIPTION>>",
+              "year": "<<YEAR>>"
+            },
+            {
+              "title": "<<AWARD NAME>>",
+              "body": "<<AWARD DESCRIPTION>>",
+              "year": "<<YEAR>>"
+            },
+            {
+              "title": "<<AWARD NAME>>",
+              "body": "<<AWARD DESCRIPTION>>",
+              "year": "<<YEAR>>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Financial Highlights",
+      "subtitle": "Summary of key financial metrics",
+      "sections": [
+        {
+          "type": "kpi",
+          "title": "<<FISCAL YEAR>> Financial Performance",
+          "columns": 4,
+          "items": [
+            {
+              "label": "Revenue",
+              "value": "<<e.g. US $30B>>",
+              "delta": "<<e.g. +6.0% YoY>>",
+              "deltaPositive": true,
+              "subLabel": "<<CURRENCY e.g. USD>>"
+            },
+            {
+              "label": "EBITDA",
+              "value": "<<VALUE>>",
+              "delta": "<<DELTA>>",
+              "deltaPositive": true,
+              "subLabel": ""
+            },
+            {
+              "label": "Net Profit",
+              "value": "<<VALUE>>",
+              "delta": "<<e.g. +5.1% YoY>>",
+              "deltaPositive": true,
+              "subLabel": ""
+            },
+            {
+              "label": "EPS",
+              "value": "<<e.g. ₹134.19>>",
+              "delta": "<<e.g. +5.1%>>",
+              "deltaPositive": true,
+              "subLabel": "Diluted"
+            },
+            {
+              "label": "Operating Margin",
+              "value": "<<e.g. 24.3%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": ""
+            },
+            {
+              "label": "Net Margin",
+              "value": "<<e.g. 19.0%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": ""
+            },
+            {
+              "label": "Dividend/Share",
+              "value": "<<e.g. ₹126>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "FY total"
+            },
+            {
+              "label": "Market Cap",
+              "value": "<<VALUE>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "<<CURRENCY>>"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "title": "Revenue Trend (<<CURRENCY>>)",
+          "chartType": "bar",
+          "labels": [
+            "<<FY YEAR-4>>",
+            "<<FY YEAR-3>>",
+            "<<FY YEAR-2>>",
+            "<<FY YEAR-1>>",
+            "<<CURRENT FY>>"
+          ],
+          "datasets": [
+            {
+              "label": "Revenue",
+              "data": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "caption": "Source: Company financials",
+          "yAxisPrefix": "<<e.g. $ or ₹>>",
+          "yAxisSuffix": "",
+          "showValues": true,
+          "showLegend": true
+        },
+        {
+          "type": "chart",
+          "title": "Net Profit & Operating Margin",
+          "chartType": "line",
+          "labels": [
+            "<<FY YEAR-4>>",
+            "<<FY YEAR-3>>",
+            "<<FY YEAR-2>>",
+            "<<FY YEAR-1>>",
+            "<<CURRENT FY>>"
+          ],
+          "datasets": [
+            {
+              "label": "Net Profit",
+              "data": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "label": "Operating Margin %",
+              "data": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "caption": "",
+          "yAxisPrefix": "",
+          "yAxisSuffix": "",
+          "showValues": true,
+          "showLegend": true
+        }
+      ]
+    },
+    {
+      "title": "Management Discussion & Analysis",
+      "subtitle": "",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Business Environment",
+          "subtitle": "",
+          "body": "<<2-3 PARAGRAPHS describing macroeconomic environment, industry trends, and how the company operated in that context>>",
+          "highlight": "",
+          "quote": "",
+          "subsections": []
+        },
+        {
+          "type": "richText",
+          "title": "Financial Performance Overview",
+          "subtitle": "",
+          "highlight": "",
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "Revenue for <<FISCAL YEAR>> stood at ",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "<<REVENUE FIGURE e.g. ₹255,324 crore>>",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": ", growing ",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "<<GROWTH RATE e.g. 6.0%>>",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " year-on-year. Operating margin was maintained at ",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "<<MARGIN e.g. 24.3%>>",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": ", reflecting disciplined cost management.",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "runs": [
+                {
+                  "text": "Net income reached ",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "<<NET INCOME FIGURE>>",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": ", with earnings per share at ",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "<<EPS FIGURE>>",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": ", a growth of ",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "<<EPS GROWTH e.g. 5.1%>>",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " over the prior year.",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "financials",
+          "title": "Income Statement Summary",
+          "currency": "<<CURRENCY e.g. INR or USD>>",
+          "unit": "<<UNIT e.g. Crore or Millions>>",
+          "periods": [
+            "<<FY YEAR-3>>",
+            "<<FY YEAR-2>>",
+            "<<FY YEAR-1>>",
+            "<<CURRENT FY>>"
+          ],
+          "items": [
+            {
+              "label": "Revenue",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "Cost of Revenue",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Gross Profit",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "Operating Expenses",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Operating Income",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "Net Income",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "EPS (Diluted)",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            }
+          ],
+          "caption": "All values in <<UNIT>> unless stated otherwise"
+        },
+        {
+          "type": "text",
+          "title": "Segment-wise Performance",
+          "subtitle": "",
+          "body": "<<DESCRIBE PERFORMANCE BY GEOGRAPHY / BUSINESS UNIT / VERTICAL>>\n\n<<SEGMENT 1 NAME>>: <<Performance description>>\n\n<<SEGMENT 2 NAME>>: <<Performance description>>\n\n<<SEGMENT 3 NAME>>: <<Performance description>>",
+          "highlight": "",
+          "quote": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Strategy & Growth",
+      "subtitle": "Business strategy, expansion plans, and innovation",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Strategic Priorities",
+          "subtitle": "",
+          "body": "<<2-3 PARAGRAPHS outlining the company's strategic direction for the year and beyond>>",
+          "highlight": "<<KEY STRATEGIC THEME — one line>>",
+          "quote": "",
+          "subsections": [
+            {
+              "type": "heading",
+              "text": "<<STRATEGIC PILLAR 1 e.g. AI-First Transformation>>"
+            },
+            {
+              "type": "paragraph",
+              "text": "<<DESCRIPTION OF PILLAR 1>>"
+            },
+            {
+              "type": "heading",
+              "text": "<<STRATEGIC PILLAR 2 e.g. Cloud & Digital Infrastructure>>"
+            },
+            {
+              "type": "paragraph",
+              "text": "<<DESCRIPTION OF PILLAR 2>>"
+            },
+            {
+              "type": "heading",
+              "text": "<<STRATEGIC PILLAR 3 e.g. Talent & Culture>>"
+            },
+            {
+              "type": "paragraph",
+              "text": "<<DESCRIPTION OF PILLAR 3>>"
+            }
+          ]
+        },
+        {
+          "type": "bullets",
+          "title": "Key Initiatives & Partnerships",
+          "items": [
+            "<<INITIATIVE OR PARTNERSHIP 1>>",
+            "<<INITIATIVE OR PARTNERSHIP 2>>",
+            "<<INITIATIVE OR PARTNERSHIP 3>>",
+            "<<INITIATIVE OR PARTNERSHIP 4>>",
+            "<<ADD OR REMOVE AS NEEDED>>"
+          ],
+          "ordered": false
+        },
+        {
+          "type": "timeline",
+          "title": "Expansion & M&A Highlights",
+          "items": [
+            {
+              "year": "<<YEAR/QUARTER>>",
+              "title": "<<EVENT TITLE e.g. Acquired XYZ>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            },
+            {
+              "year": "<<YEAR/QUARTER>>",
+              "title": "<<EVENT TITLE>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            },
+            {
+              "year": "<<YEAR/QUARTER>>",
+              "title": "<<EVENT TITLE>>",
+              "description": "<<BRIEF DESCRIPTION>>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ESG & Sustainability",
+      "subtitle": "Environmental, Social, and Governance commitments",
+      "sections": [
+        {
+          "type": "kpi",
+          "title": "ESG Scorecard",
+          "columns": 3,
+          "items": [
+            {
+              "label": "ESG Score",
+              "value": "<<SCORE e.g. 72/100>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "Overall"
+            },
+            {
+              "label": "Carbon Emissions",
+              "value": "<<VALUE e.g. -18%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "Reduction YoY"
+            },
+            {
+              "label": "Women in Workforce",
+              "value": "<<e.g. 35.7%>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": ""
+            }
+          ]
+        },
+        {
+          "type": "twoColumn",
+          "title": "Our ESG Commitments",
+          "left": {
+            "heading": "Environmental",
+            "body": "<<DESCRIBE environmental initiatives: carbon reduction, renewable energy, waste management, etc.>>"
+          },
+          "right": {
+            "heading": "Social",
+            "body": "<<DESCRIBE social initiatives: employee wellbeing, diversity, community programs, CSR spend, etc.>>"
+          }
+        },
+        {
+          "type": "text",
+          "title": "Governance",
+          "subtitle": "",
+          "body": "<<DESCRIBE governance practices: board independence, ethics policies, whistleblower mechanisms, compliance framework>>",
+          "highlight": "",
+          "quote": "",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Risk Management",
+      "subtitle": "Key risks and mitigation strategies",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Risk Management Framework",
+          "subtitle": "",
+          "body": "<<DESCRIBE the company's overall approach to risk identification, assessment, and management>>",
+          "highlight": "",
+          "quote": "",
+          "subsections": []
+        },
+        {
+          "type": "table",
+          "title": "Key Risk Register",
+          "headers": [
+            "Risk Category",
+            "Description",
+            "Likelihood",
+            "Impact",
+            "Mitigation"
+          ],
+          "rows": [
+            [
+              "Market Risk",
+              "<<DESCRIPTION>>",
+              "<<High/Med/Low>>",
+              "<<High/Med/Low>>",
+              "<<MITIGATION STRATEGY>>"
+            ],
+            [
+              "Operational Risk",
+              "<<DESCRIPTION>>",
+              "<<High/Med/Low>>",
+              "<<High/Med/Low>>",
+              "<<MITIGATION STRATEGY>>"
+            ],
+            [
+              "Regulatory Risk",
+              "<<DESCRIPTION>>",
+              "<<High/Med/Low>>",
+              "<<High/Med/Low>>",
+              "<<MITIGATION STRATEGY>>"
+            ],
+            [
+              "Technology Risk",
+              "<<DESCRIPTION>>",
+              "<<High/Med/Low>>",
+              "<<High/Med/Low>>",
+              "<<MITIGATION STRATEGY>>"
+            ],
+            [
+              "Geopolitical Risk",
+              "<<DESCRIPTION>>",
+              "<<High/Med/Low>>",
+              "<<High/Med/Low>>",
+              "<<MITIGATION STRATEGY>>"
+            ],
+            [
+              "ADD MORE ROWS AS NEEDED",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "caption": "",
+          "highlightLastRow": false,
+          "highlightFirstColumn": true,
+          "columnAlignments": [
+            "left",
+            "left",
+            "center",
+            "center",
+            "left"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Directors' Report",
+      "subtitle": "Legal disclosures and board statements",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Board Statement",
+          "subtitle": "",
+          "body": "Dear Members,\n\n<<OPENING PARAGRAPH of Directors' Report>>\n\n<<PARAGRAPH about financial performance>>\n\n<<PARAGRAPH about business operations>>\n\n<<PARAGRAPH about future outlook>>",
+          "highlight": "",
+          "quote": "",
+          "subsections": []
+        },
+        {
+          "type": "kpi",
+          "title": "Dividend & Returns",
+          "columns": 3,
+          "items": [
+            {
+              "label": "Interim Dividend",
+              "value": "<<e.g. ₹96 per share>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "Paid during the year"
+            },
+            {
+              "label": "Final Dividend",
+              "value": "<<e.g. ₹30 per share>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "Recommended"
+            },
+            {
+              "label": "Total Dividend",
+              "value": "<<e.g. ₹126 per share>>",
+              "delta": "",
+              "deltaPositive": true,
+              "subLabel": "Full year"
+            }
+          ]
+        },
+        {
+          "type": "bullets",
+          "title": "Key Disclosures",
+          "items": [
+            "<<DISCLOSURE 1 e.g. No material changes after balance sheet date>>",
+            "<<DISCLOSURE 2 e.g. Company has not accepted deposits>>",
+            "<<DISCLOSURE 3 e.g. Compliance with secretarial standards>>",
+            "<<DISCLOSURE 4 e.g. Risk management policy>>",
+            "<<ADD OR REMOVE AS NEEDED>>"
+          ],
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "title": "Financial Statements",
+      "subtitle": "Audited financial statements",
+      "sections": [
+        {
+          "type": "pageBreak"
+        },
+        {
+          "type": "financials",
+          "title": "Balance Sheet",
+          "currency": "<<CURRENCY e.g. INR>>",
+          "unit": "<<UNIT e.g. Crore>>",
+          "periods": [
+            "<<FY YEAR-1>>",
+            "<<CURRENT FY>>"
+          ],
+          "items": [
+            {
+              "label": "ASSETS",
+              "values": [
+                "",
+                ""
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "Fixed Assets (Net)",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Current Assets",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Cash & Equivalents",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Trade Receivables",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Other Current Assets",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "TOTAL ASSETS",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "LIABILITIES & EQUITY",
+              "values": [
+                "",
+                ""
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "Equity Share Capital",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Reserves & Surplus",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Total Equity",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "Long-term Borrowings",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Current Liabilities",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "TOTAL LIABILITIES & EQUITY",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            }
+          ],
+          "caption": "All values in <<CURRENCY>> <<UNIT>> unless stated otherwise"
+        },
+        {
+          "type": "pageBreak"
+        },
+        {
+          "type": "financials",
+          "title": "Statement of Profit & Loss",
+          "currency": "<<CURRENCY>>",
+          "unit": "<<UNIT>>",
+          "periods": [
+            "<<FY YEAR-1>>",
+            "<<CURRENT FY>>"
+          ],
+          "items": [
+            {
+              "label": "Revenue from Operations",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "Other Income",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "TOTAL INCOME",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "Employee Benefits Expense",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Finance Costs",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Depreciation",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Other Expenses",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "TOTAL EXPENSES",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "Profit Before Tax",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "Tax Expense",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "PROFIT AFTER TAX",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "EPS (Basic)",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "EPS (Diluted)",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            }
+          ],
+          "caption": ""
+        },
+        {
+          "type": "pageBreak"
+        },
+        {
+          "type": "financials",
+          "title": "Cash Flow Statement",
+          "currency": "<<CURRENCY>>",
+          "unit": "<<UNIT>>",
+          "periods": [
+            "<<FY YEAR-1>>",
+            "<<CURRENT FY>>"
+          ],
+          "items": [
+            {
+              "label": "Net Cash from Operating Activities",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "  Profit After Tax",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Depreciation",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Changes in Working Capital",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Net Cash from Investing Activities",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "  Capital Expenditure",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Investments",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "Net Cash from Financing Activities",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "  Dividends Paid",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "  Borrowings (Net)",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": true,
+              "separator": false
+            },
+            {
+              "label": "NET CHANGE IN CASH",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            },
+            {
+              "label": "Opening Cash Balance",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": false,
+              "indent": false,
+              "separator": false
+            },
+            {
+              "label": "CLOSING CASH BALANCE",
+              "values": [
+                "<<VAL>>",
+                "<<VAL>>"
+              ],
+              "bold": true,
+              "indent": false,
+              "separator": true
+            }
+          ],
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}
